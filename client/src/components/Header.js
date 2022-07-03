@@ -5,10 +5,12 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
+import SearchBar from './SearchBar/SearchBar';
+import { blueGrey } from '@mui/material/colors';
 
 const styles = {
   root: {
-    background: '#FFFFFF',
+    background: 'blueGrey',
   },
   content: {
     width: '100%',
@@ -27,6 +29,7 @@ const Header = () => (
       <Toolbar disableGutters>
         <Box sx={styles.content}>
           <Typography variant="h5" sx={styles.pageTitle}>ProjectHub</Typography>
+          <SearchBar />
           <IconButton onClick={() => {}} sx={{ p: 0 }}>
             <Avatar alt="Remy Sharp" src="https://mui.com/static/images/avatar/2.jpg" />
           </IconButton>
