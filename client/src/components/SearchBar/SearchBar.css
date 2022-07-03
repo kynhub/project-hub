@@ -1,26 +1,35 @@
 .searchInput {
     margin-top: 3px;
     display: flex;
-    margin-left: 900px;
+    color: white;
+    margin-left: 20px;
+    
 }
 
 .search input {
-    background-color: white;
-    border: 0;
+    background-color: blue;
+    color: white;
+    border: 1px solid #000000;
     border-radius: 3px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     font-size: 12px;
     padding: 15px;
-    height: 5px;
-    width: 150px;
+    margin-top: 5px;
+    height: 10px;
+    width: 1200px;
 }
 
 .searchIcon {
-    height: 38px;
+    height: 40.4px;
     width: 50px;
-    margin-top: -2px;
+    margin-top: 4.5px;
     background-color: #000080;
+    border: 1px solid #000000;
     display: grid;
     place-items: center;
+}
+
+::placeholder {
+    color: white;
 }

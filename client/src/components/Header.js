@@ -10,7 +10,7 @@ import { blueGrey } from '@mui/material/colors';
 
 const styles = {
   root: {
-    background: 'blueGrey',
+    background: '#ffffff',
   },
   content: {
     width: '100%',
@@ -29,7 +29,6 @@ const Header = () => (
       <Toolbar disableGutters>
         <Box sx={styles.content}>
           <Typography variant="h5" sx={styles.pageTitle}>ProjectHub</Typography>
-          <SearchBar />
           <IconButton onClick={() => {}} sx={{ p: 0 }}>
             <Avatar alt="Remy Sharp" src="https://mui.com/static/images/avatar/2.jpg" />
           </IconButton>
