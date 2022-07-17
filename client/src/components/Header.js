@@ -5,10 +5,12 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
+import SearchBar from './SearchBar/SearchBar';
+import { blueGrey } from '@mui/material/colors';
 
 const styles = {
   root: {
-    background: '#FFFFFF',
+    background: '#ffffff',
   },
   content: {
     width: '100%',
